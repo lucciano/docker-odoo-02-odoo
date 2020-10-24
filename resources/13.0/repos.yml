@@ -335,9 +335,9 @@ oca-stock-logistics-warehouse:
         - origin $ODOO_VERSION
     target: origin $ODOO_VERSION
 
-oca-stock-logistics-worklflow:
+oca-stock-logistics-workflow:
     remotes:
-        origin: https://github.com/oca/stock-logistics-worklflow.git
+        origin: https://github.com/oca/stock-logistics-workflow.git
     merges:
         - origin $ODOO_VERSION
     target: origin $ODOO_VERSION
