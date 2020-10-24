@@ -355,3 +355,14 @@ oca-website:
     merges:
         - origin $ODOO_VERSION
     target: origin $ODOO_VERSION
+
+###########################
+#  Openworx repositories  #
+###########################
+
+openworx-backend_theme:
+    remotes:
+        origin: https://github.com/openworx/backend_theme.git
+    merges:
+        - origin $ODOO_VERSION
+    target: origin $ODOO_VERSION
