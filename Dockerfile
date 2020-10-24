@@ -1,4 +1,4 @@
-FROM pragmaticlab/odoo-ce:11.0
+FROM pragmaticlab/odoo-ce:13.0
 
 # Add dependencies needed to build PyAFIPws
 USER root

@@ -65,6 +65,13 @@ ingadhoc-odoo-argentina:
         - origin $ODOO_VERSION
     target: origin $ODOO_VERSION
 
+ingadhoc-odoo-argentina-ce:
+    remotes:
+        origin: https://github.com/ingadhoc/odoo-argentina-ce.git
+    merges:
+        - origin $ODOO_VERSION
+    target: origin $ODOO_VERSION
+
 ingadhoc-manufacture:
     remotes:
         origin: https://github.com/ingadhoc/manufacture.git
@@ -167,9 +174,142 @@ oca-account-financial-tools:
         - origin $ODOO_VERSION
     target: origin $ODOO_VERSION
 
+oca-contract:
+    remotes:
+        origin: https://github.com/oca/contract.git
+    merges:
+        - origin $ODOO_VERSION
+    target: origin $ODOO_VERSION
+
+oca-crm:
+    remotes:
+        origin: https://github.com/oca/crm.git
+    merges:
+        - origin $ODOO_VERSION
+    target: origin $ODOO_VERSION
+
+oca-e-commerce:
+    remotes:
+        origin: https://github.com/oca/e-commerce.git
+    merges:
+        - origin $ODOO_VERSION
+    target: origin $ODOO_VERSION
+
+oca-helpdesk:
+    remotes:
+        origin: https://github.com/oca/helpdesk.git
+    merges:
+        - origin $ODOO_VERSION
+    target: origin $ODOO_VERSION
+
+oca-hr:
+    remotes:
+        origin: https://github.com/oca/hr.git
+    merges:
+        - origin $ODOO_VERSION
+    target: origin $ODOO_VERSION
+
+oca-hr-attendance:
+    remotes:
+        origin: https://github.com/oca/hr-attendance.git
+    merges:
+        - origin $ODOO_VERSION
+    target: origin $ODOO_VERSION
+
+oca-hr-expense:
+    remotes:
+        origin: https://github.com/oca/hr-expense.git
+    merges:
+        - origin $ODOO_VERSION
+    target: origin $ODOO_VERSION
+
+oca-interface-github:
+    remotes:
+        origin: https://github.com/oca/interface-github.git
+    merges:
+        - origin $ODOO_VERSION
+    target: origin $ODOO_VERSION
+
+oca-knowledge:
+    remotes:
+        origin: https://github.com/oca/knowledge.git
+    merges:
+        - origin $ODOO_VERSION
+    target: origin $ODOO_VERSION
+
+oca-manufacture:
+    remotes:
+        origin: https://github.com/oca/manufacture.git
+    merges:
+        - origin $ODOO_VERSION
+    target: origin $ODOO_VERSION
+
+oca-multi-company:
+    remotes:
+        origin: https://github.com/oca/multi-company.git
+    merges:
+        - origin $ODOO_VERSION
+    target: origin $ODOO_VERSION
+
+oca-partner-contact:
+    remotes:
+        origin: https://github.com/oca/partner-contact.git
+    merges:
+        - origin $ODOO_VERSION
+    target: origin $ODOO_VERSION
+
+oca-product-attribute:
+    remotes:
+        origin: https://github.com/oca/product-attribute.git
+    merges:
+        - origin $ODOO_VERSION
+    target: origin $ODOO_VERSION
+
+oca-product-pack:
+    remotes:
+        origin: https://github.com/oca/product-pack.git
+    merges:
+        - origin $ODOO_VERSION
+    target: origin $ODOO_VERSION
+
+oca-purchase-workflow:
+    remotes:
+        origin: https://github.com/oca/purchase-workflow.git
+    merges:
+        - origin $ODOO_VERSION
+    target: origin $ODOO_VERSION
+
+oca-report-print-send:
+    remotes:
+        origin: https://github.com/oca/report-print-send.git
+    merges:
+        - origin $ODOO_VERSION
+    target: origin $ODOO_VERSION
+
 oca-reporting-engine:
     remotes:
         origin: https://github.com/oca/reporting-engine.git
+    merges:
+        - origin $ODOO_VERSION
+    target: origin $ODOO_VERSION
+
+oca-sale-workflow:
+    remotes:
+        origin: https://github.com/oca/sale-workflow.git
+    merges:
+        - origin $ODOO_VERSION
+    target: origin $ODOO_VERSION
+
+oca-server-auth:
+    remotes:
+        origin: https://github.com/oca/server-auth.git
+    merges:
+        - origin $ODOO_VERSION
+    target: origin $ODOO_VERSION
+
+oca-server-tools:
+    remotes:
+        origin: https://github.com/oca/server-tools.git
     merges:
         - origin $ODOO_VERSION
     target: origin $ODOO_VERSION
@@ -181,9 +321,37 @@ oca-server-ux:
         - origin $ODOO_VERSION
     target: origin $ODOO_VERSION
 
+oca-social:
+    remotes:
+        origin: https://github.com/oca/social.git
+    merges:
+        - origin $ODOO_VERSION
+    target: origin $ODOO_VERSION
+
+oca-stock-logistics-warehouse:
+    remotes:
+        origin: https://github.com/oca/stock-logistics-warehouse.git
+    merges:
+        - origin $ODOO_VERSION
+    target: origin $ODOO_VERSION
+
+oca-stock-logistics-worklflow:
+    remotes:
+        origin: https://github.com/oca/stock-logistics-worklflow.git
+    merges:
+        - origin $ODOO_VERSION
+    target: origin $ODOO_VERSION
+
 oca-web:
     remotes:
         origin: https://github.com/oca/web.git
+    merges:
+        - origin $ODOO_VERSION
+    target: origin $ODOO_VERSION
+
+oca-website:
+    remotes:
+        origin: https://github.com/oca/website.git
     merges:
         - origin $ODOO_VERSION
     target: origin $ODOO_VERSION
