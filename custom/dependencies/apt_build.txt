@@ -1,0 +1,6 @@
+# ingadhoc-odoo-argentina
+build-essential
+python-dev
+swig
+libffi-dev
+libssl-dev

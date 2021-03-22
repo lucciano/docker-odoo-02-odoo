@@ -1,0 +1,98 @@
+# ingadhoc-aeroo_reports
+git+https://github.com/edgewall/genshi@stable/0.7.x
+git+https://github.com/adhoc-dev/aeroolib@master-fix-ods
+git+https://github.com/aeroo/currency2text.git
+
+# ingadhoc-odoo-argentina
+httplib2>=0.7
+git+https://github.com/pysimplesoap/pysimplesoap@a330d9c4af1b007fe1436f979ff0b9f66613136e
+git+https://github.com/ingadhoc/pyafipws@py3k
+git+https://github.com/OCA/openupgradelib/@master
+
+# ingadhoc-odoo-argentina-ce
+pyOpenSSL
+M2Crypto
+
+# ingadhoc-website
+html2text
+mercadopago===1.1.1
+suds-jurko
+requests
+
+# itpp-labs-misc-addons
+icalendar
+boto3
+websocket-client
+pretty_bad_protocol
+requests_mock
+dropbox
+google-api-python-client
+bs4
+
+# itpp-labs-pos-addons
+wechatpy[cryptography]
+requests-mock
+python-alipay-sdk
+websocket-client
+
+# oca-bank-payment
+unidecode
+
+# oca-connector
+cachetools>=2.0.1
+
+# oca-e-commerce / oca-stock-logistics-workflow
+freezegun
+
+# oca-product-attribute
+odoo_test_helper
+
+# oca-report-print-send
+# pycups==1.9.74
+zpl2==1.2
+
+# oca-reporting-engine
+py3o.template
+py3o.formats
+genshi>=0.7
+
+# oca-rest-framework
+cerberus
+pyquerystring
+parse-accept-language
+jsondiff
+graphene
+graphql-server-core
+marshmallow
+marshmallow-objects>=2.0.0
+apispec
+
+# oca-server-auth
+email_validator
+python-ldap==3.1.0
+zxcvbn-python==4.4.24
+
+# oca-server-backend
+sqlalchemy
+
+
+# oca-server-tools
+raven
+pygount
+
+# oca-server-ux
+pyzbar
+pdf2image
+
+# oca-social
+premailer
+extract-msg
+
+# oca-stock-logistics-warehouse
+cubiscan
+mock
+
+# oca-web
+bokeh==1.1.0
+matplotlib>=2.0.0
+mpld3==0.3

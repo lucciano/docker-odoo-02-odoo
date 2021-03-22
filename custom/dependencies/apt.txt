@@ -1,0 +1,3 @@
+# ingadhoc-odoo-argentina
+python-m2crypto
+python-httplib2

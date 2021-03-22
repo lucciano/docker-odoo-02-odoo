@@ -1,0 +1,749 @@
+./odoo:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      odoo: https://github.com/odoo/odoo.git
+  target:
+      odoo $ODOO_VERSION
+  merges:
+      - odoo $ODOO_VERSION
+
+ganar-gan-ar-aeroo_reports:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/ganar-gan-ar/aeroo_reports.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+ganar-gan-ar-theme-clarico-vega:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/ganar-gan-ar/theme-clarico-vega.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+ganar-gan-ar-third-party-apps:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/ganar-gan-ar/third-party-apps.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+ingadhoc-account-financial-tools:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/ingadhoc/account-financial-tools.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+ingadhoc-account-payment:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/ingadhoc/account-payment.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+ingadhoc-account-invoicing:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/ingadhoc/account-invoicing.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+ingadhoc-argentina-reporting:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/ingadhoc/argentina-reporting.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+ingadhoc-argentina-sale:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/ingadhoc/argentina-sale.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+ingadhoc-miscellaneous:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/ingadhoc/miscellaneous.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+ingadhoc-multi-company:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/ingadhoc/multi-company.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+ingadhoc-odoo-argentina:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/ingadhoc/odoo-argentina.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+ingadhoc-odoo-argentina-ce:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/ingadhoc/odoo-argentina-ce.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+ingadhoc-partner:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/ingadhoc/partner.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+ingadhoc-product:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/ingadhoc/product.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+ingadhoc-purchase:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/ingadhoc/purchase.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+ingadhoc-reporting-engine:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/ingadhoc/reporting-engine.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+ingadhoc-sale:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/ingadhoc/sale.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+ingadhoc-stock:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/ingadhoc/stock.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+ingadhoc-website:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/ingadhoc/website.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+itpp-labs-misc-addons:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/itpp-labs/misc-addons.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+itpp-labs-pos-addons:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/itpp-labs/pos-addons.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-account-analytic:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/account-analytic.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-account-closing:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/account-closing.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-account-financial-tools:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/account-financial-tools.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-account-financial-reporting:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/account-financial-reporting.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-account-invoice-reporting:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/account-invoice-reporting.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-account-invoicing:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/account-invoicing.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-bank-payment:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/bank-payment.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-brand:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/brand.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-commission:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/commission.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-connector:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/connector.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-contract:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/contract.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-crm:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/crm.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-currency:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/currency.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-event:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/event.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-e-commerce:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/e-commerce.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-fleet:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/fleet.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-geospatial:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/geospatial.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-helpdesk:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/helpdesk.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-hr:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/hr.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-hr-attendance:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/hr-attendance.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-hr-expense:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/hr-expense.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-hr-holidays:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/hr-holidays.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-maintenance:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/maintenance.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-mis-builder:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/mis-builder.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-multi-company:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/multi-company.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-partner-contact:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/partner-contact.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-product-attribute:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/product-attribute.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-product-pack:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/product-pack.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-product-variant:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/product-variant.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-project:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/project.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-project-reporting:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/project-reporting.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-purchase-workflow:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/purchase-workflow.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-queue:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/queue.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+# oca-report-print-send:
+#  defaults:
+#      depth: $DEPTH_DEFAULT
+#  remotes:
+#      default: https://github.com/OCA/report-print-send.git
+#  target:
+#      default $ODOO_VERSION
+#  merges:
+#      - default $ODOO_VERSION
+
+oca-reporting-engine:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/reporting-engine.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-rest-framework:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/rest-framework.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-rma:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/rma.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-sale-reporting:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/sale-reporting.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-sale-workflow:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/sale-workflow.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-server-auth:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/server-auth.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-server-backend:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/server-backend.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-server-brand:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/server-brand.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-server-env:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/server-env.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-server-tools:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/server-tools.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-server-ux:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/server-ux.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-social:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/social.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-stock-logistics-warehouse:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/stock-logistics-warehouse.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-stock-logistics-workflow:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/stock-logistics-workflow.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-timesheet:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/timesheet.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-web:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/web.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-website:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/website.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+oca-wms:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/wms.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+openworx-backend_theme:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/Openworx/backend_theme.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
