@@ -4,3 +4,6 @@ python-dev
 swig
 libffi-dev
 libssl-dev
+
+# oca-report-print-send
+libcups2-dev

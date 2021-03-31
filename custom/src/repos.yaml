@@ -8,16 +8,6 @@
   merges:
       - odoo $ODOO_VERSION
 
-ganar-gan-ar-aeroo_reports:
-  defaults:
-      depth: $DEPTH_DEFAULT
-  remotes:
-      default: https://github.com/ganar-gan-ar/aeroo_reports.git
-  target:
-      default $ODOO_VERSION
-  merges:
-      - default $ODOO_VERSION
-
 ganar-gan-ar-theme-clarico-vega:
   defaults:
       depth: $DEPTH_DEFAULT
@@ -33,6 +23,16 @@ ganar-gan-ar-third-party-apps:
       depth: $DEPTH_DEFAULT
   remotes:
       default: https://github.com/ganar-gan-ar/third-party-apps.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+ingadhoc-aeroo_reports:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/ingadhoc/aeroo_reports.git
   target:
       default $ODOO_VERSION
   merges:
@@ -548,15 +548,15 @@ oca-queue:
   merges:
       - default $ODOO_VERSION
 
-# oca-report-print-send:
-#  defaults:
-#      depth: $DEPTH_DEFAULT
-#  remotes:
-#      default: https://github.com/OCA/report-print-send.git
-#  target:
-#      default $ODOO_VERSION
-#  merges:
-#      - default $ODOO_VERSION
+oca-report-print-send:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/OCA/report-print-send.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
 
 oca-reporting-engine:
   defaults:

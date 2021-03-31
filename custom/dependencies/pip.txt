@@ -48,7 +48,7 @@ freezegun
 odoo_test_helper
 
 # oca-report-print-send
-# pycups==1.9.74
+pycups==1.9.74
 zpl2==1.2
 
 # oca-reporting-engine
@@ -91,8 +91,3 @@ extract-msg
 # oca-stock-logistics-warehouse
 cubiscan
 mock
-
-# oca-web
-bokeh==1.1.0
-matplotlib>=2.0.0
-mpld3==0.3
