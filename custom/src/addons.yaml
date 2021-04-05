@@ -217,6 +217,3 @@ oca-website:
 
 oca-wms:
   - "*"
-
-openworx-backend_theme:
-  - "*"

@@ -737,13 +737,3 @@ oca-wms:
       default $ODOO_VERSION
   merges:
       - default $ODOO_VERSION
-
-openworx-backend_theme:
-  defaults:
-      depth: $DEPTH_DEFAULT
-  remotes:
-      default: https://github.com/Openworx/backend_theme.git
-  target:
-      default $ODOO_VERSION
-  merges:
-      - default $ODOO_VERSION
