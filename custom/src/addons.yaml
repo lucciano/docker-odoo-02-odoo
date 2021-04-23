@@ -1,7 +1,10 @@
-ganar-gan-ar-theme-clarico-vega:
+ganarganar-pos:
  - "*"
 
-ganar-gan-ar-third-party-apps:
+ganarganar-theme-clarico-vega:
+ - "*"
+
+ganarganar-third-party-apps:
  - "*"
 
 ingadhoc-aeroo_reports:
@@ -57,10 +60,49 @@ ingadhoc-website:
  
 itpp-labs-misc-addons:
  - "*"
- 
+
 itpp-labs-pos-addons:
- - "*"
- 
+ - "hw_printer_network"
+ - "pos_cashbox"
+ - "pos_cashier_select"
+ - "pos_category_multi"
+ - "pos_debt_notebook_rewards"
+ - "pos_debt_notebook_sync"
+ - "pos_discount_total"
+ - "pos_invoice_pay"
+ - "pos_invoice_postponed"
+ - "pos_journal_pin"
+ - "pos_keyboard"
+ - "pos_logout"
+ - "pos_longpolling"
+ - "pos_menu"
+ - "pos_mobile_restaurant"
+ - "pos_multi_session"
+ - "pos_multi_session_sync"
+ - "pos_order_cancel"
+ - "pos_order_cancel_restaurant"
+ - "pos_order_merge"
+ - "pos_order_note"
+ - "pos_order_print_check"
+ - "pos_order_printer_product"
+ - "pos_orderline_absolute_discount"
+ - "pos_orders_history"
+ - "pos_orders_history_reprint"
+ - "pos_orders_history_return"
+ - "pos_partner_sync"
+ - "pos_pin"
+ - "pos_print_method"
+ - "pos_printer_network"
+ - "pos_product_available"
+ - "pos_product_available_negative"
+ - "pos_product_category_discount"
+ - "pos_product_lot"
+ - "pos_qr_payments"
+ - "pos_qr_scan"
+ - "pos_qr_show"
+ - "pos_restaurant_base"
+ - "product_lot"
+
 oca-account-analytic:
   - "*"
 
@@ -204,7 +246,6 @@ oca-stock-logistics-warehouse:
 
 oca-stock-logistics-workflow:
   - "*"
-
 
 oca-timesheet:
   - "*"

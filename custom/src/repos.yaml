@@ -8,21 +8,31 @@
   merges:
       - odoo $ODOO_VERSION
 
-ganar-gan-ar-theme-clarico-vega:
+ganarganar-pos:
   defaults:
       depth: $DEPTH_DEFAULT
   remotes:
-      default: https://github.com/ganar-gan-ar/theme-clarico-vega.git
+      default: https://github.com/ganarganar/pos.git
   target:
       default $ODOO_VERSION
   merges:
       - default $ODOO_VERSION
 
-ganar-gan-ar-third-party-apps:
+ganarganar-theme-clarico-vega:
   defaults:
       depth: $DEPTH_DEFAULT
   remotes:
-      default: https://github.com/ganar-gan-ar/third-party-apps.git
+      default: https://github.com/ganarganar/theme-clarico-vega.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+ganarganar-third-party-apps:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/ganarganar/third-party-apps.git
   target:
       default $ODOO_VERSION
   merges:
