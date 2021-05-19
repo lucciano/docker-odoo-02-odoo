@@ -1,4 +1,10 @@
+ganarganar-mailing:
+ - "*"
+
 ganarganar-pos:
+ - "*"
+
+ganarganar-saas-odoo:
  - "*"
 
 ganarganar-theme-clarico-vega:
@@ -56,7 +62,17 @@ ingadhoc-stock:
  - "*"
  
 ingadhoc-website:
- - "*"
+ - payment_mercadopago
+ - payment_todopago
+ - website_product_attribute_link
+ - website_product_pack
+ - website_sale_breadcrumb
+ - website_sale_order_type
+ - website_sale_promotion
+ - website_sale_stock_ux
+ - website_sale_ux
+ - website_sale_wishlist_ux
+ - website_security
  
 itpp-labs-misc-addons:
  - "*"

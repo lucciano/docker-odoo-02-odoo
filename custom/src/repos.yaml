@@ -8,11 +8,31 @@
   merges:
       - odoo $ODOO_VERSION
 
+ganarganar-mailing:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/ganarganar/mailing.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
 ganarganar-pos:
   defaults:
       depth: $DEPTH_DEFAULT
   remotes:
       default: https://github.com/ganarganar/pos.git
+  target:
+      default $ODOO_VERSION
+  merges:
+      - default $ODOO_VERSION
+
+ganarganar-saas-odoo:
+  defaults:
+      depth: $DEPTH_DEFAULT
+  remotes:
+      default: https://github.com/ganarganar/saas-odoo.git
   target:
       default $ODOO_VERSION
   merges:
