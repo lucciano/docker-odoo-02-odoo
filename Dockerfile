@@ -1,4 +1,4 @@
-FROM ganarganar/odoo-01-base:13.0
+FROM lucciano/odoo-base:13.0-23274bfb24b60d204b0ff3430e15c83ccbed79f2
 MAINTAINER Lucas Soto <lsoto@ganargan.ar>
 
 USER root
